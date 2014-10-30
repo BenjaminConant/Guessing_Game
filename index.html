@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<title> Guessing Game - Benjamin Conant</title>
@@ -7,14 +8,14 @@
 	<body>
 		<div class="container">
 			<header class="page-header">
-				<h1 class="text-center">Benjamin Conant's Guessing Game Project</h1>
+				<h1 class="text-center">Benjamin Conant's Guessing Game</h1>
 			</header>
 			<div class="jumbotron">
 				<h3 class="text-center">Enter a Guess!!</h3>
 				<h5 class="text-center"> <i>any number between 0 and 100 </i> </h5>
 				<form id="guess-form" role="form">
-					<label for="userGuess">Your Guess!</label>
-					<input id="user-guess" class="form-control" placeholder="a number between 0 and 100">
+					
+					<input id="user-guess" class="form-control" placeholder="a number between 0 and 100" autocomplete="off">
 				</form>
 				<a id ="submit-guess" class="btn btn-primary btn-lg btn-block" style="margin-top: 10px" href="#">Submit your guess</a>
 
@@ -27,13 +28,13 @@
 					</div>
 				</div>
 				<div>
-					<h3 id="guess-left" class="text-center"> You have <span id="guessess-left">10</span> guesses left cutie patutie ;) </h3>
+					<h3 id="guess-left" class="text-center"><span id="guessess-left">10</span> guesses left!</h3>
 				</div>
 				<div>
 					<h3 id="output" class="text-center"></h3>
 				</div>
 				<div>
-					<h3 id="guess-list" class="text-center">coldest----<span id="guess-list-span"></span>----hottest </h3>
+					<h3 id="guess-list" class="text-center"><span style="color: blue">coldest</span>----<span id="guess-list-span"></span>----<span style ="color: red">hottest</span> </h3>
 				</div>
 			</div>
 		</div>
